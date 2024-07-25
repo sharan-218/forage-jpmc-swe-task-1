@@ -43,7 +43,6 @@ def getDataPoint(quote):
 def getRatio(price_a, price_b):
     """ Get ratio of price_a and price_b """
     """ ------------- Update this function ------------- """
-    # (bid_price+ask_price) / 2
     if price_b == 0:
         return None
     return price_a / price_b
